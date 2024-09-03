@@ -2,6 +2,15 @@
 
 Routines for gridding LineP data.
 
+These routines make netcdf files that are organized by depth, cruise number,
+and station for the nominal Line-P stations.  Data starts in 1968.
+
+A CTD cast is considered at a LineP station if it is within 7.2 nm of the
+nominal station location.
+
+A cruise is considered a LineP cruise if it has at least four occupied
+stations, and it made it as far offshore as P10.
+
 ## download raw netcdf files
 
 ```
